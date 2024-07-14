@@ -28,7 +28,7 @@ object PlotUtils:
      * Sample values for thinking: hi=100, low=25, diff=75, current=33
      * (the sample line chart is not for these numbers)
      */
-    def asciiValueInRangeChart(
+    def createAsciiValueInRangeChart(
         low: Double,
         high: Double,
         current: Double,
