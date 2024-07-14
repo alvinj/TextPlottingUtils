@@ -1,6 +1,5 @@
 package com.alvinalexander.utils
 
-import com.alvinalexander.utils.FileUtils.writeFile
 import com.alvinalexander.utils.MathUtils.*
 import scala.io.AnsiColor.*
 
