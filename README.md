@@ -24,6 +24,22 @@ The `createAsciiSparklineChart` function creates output that looks like this, an
 ▓▓     ▓ ▓ ▓▓   ▓  ▓ ▓    ▓▓ ▓ ▓▓  ▓ ▓ ▓ ▓▓ ▓▓ ▓ ▓▓▓▓▓ ▓▓▓ ▓  ▓▓▓ ▓ ▓▓ ▓▓  ▓ ▓▓▓▓ ▓ ▓▓▓  ▓  
 ````
 
+In my private “Chicago Cubs 2024 Scores Sparkline” project, I create a `Seq[Boolean]` like this from
+the current Cubs 2024 scores:
+
+```scala
+val scoreResults: Seq[Boolean] = 
+    elements.asScala
+            .map(elem => elem.text.trim)
+            .filter(s => s == "W" || s == "L")
+            .map(s => if s == "W" then true else false)
+            .toSeq
+
+println(createAsciiSparklineChart(scoreResults, true, true))
+```
+
+That data was used to create the Sparkline chart shown above.
+
 
 ## Other utilities
 
