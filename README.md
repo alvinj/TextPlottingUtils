@@ -1,7 +1,9 @@
 # ASCII/UTF-8/Text Plotting Utilities
 
 These are a couple of ASCII/UTF-8/Text plotting utilities that I have used recently.
-I don’t have any docs here yet, but see the two functions for a few comments.
+
+The `PlotUtilsSpec.scala` file shows some examples of how I used to call the functions,
+but the examples of `createAsciiSparklineChart` in particular are probably out of date.
 
 
 ## creatAsciiValueInRangeChart
