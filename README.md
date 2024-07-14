@@ -9,3 +9,5 @@ The `createAsciiSparklineChart` function creates output that looks like this, an
 --------------------------------------------------------------------------------------------
 ▓▓     ▓ ▓ ▓▓   ▓  ▓ ▓    ▓▓ ▓ ▓▓  ▓ ▓ ▓ ▓▓ ▓▓ ▓ ▓▓▓▓▓ ▓▓▓ ▓  ▓▓▓ ▓ ▓▓ ▓▓  ▓ ▓▓▓▓ ▓ ▓▓▓  ▓  
 ````
+
+These utilities depend on my `FileUtils` and `MathUtils`, so I’ve included small versions of those here as well.
