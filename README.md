@@ -2,8 +2,9 @@
 
 These are a couple of ASCII/UTF-8/Text plotting utilities that I have used recently.
 
-The `PlotUtilsSpec.scala` file shows some examples of how I used to call the functions,
-but the examples of `createAsciiSparklineChart` in particular are probably out of date.
+The `PlotUtilsSpec.scala` file shows some examples of how to call the functions.
+I don’t have any tests for how to call `createAsciiSparklineChart` in color,
+but other than that, I hope there’s enough to go on.
 
 
 ## creatAsciiValueInRangeChart
@@ -45,4 +46,7 @@ That data was used to create the Sparkline chart shown above.
 
 ## Other utilities
 
-These utilities depend on my `FileUtils` and `MathUtils`, so I’ve included small versions of those here as well.
+These utilities depend on my `MathUtils`, so I included those here as well.
+
+
+

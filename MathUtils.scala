@@ -1,6 +1,6 @@
 package com.alvinalexander.utils
 
-import scala.util.{Try, Using}
+import scala.util.Try
 import java.text.DecimalFormat
 
 object MathUtils:

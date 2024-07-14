@@ -8,7 +8,6 @@ import zio.test.ZIOSpecDefault
 import zio.test._
 import zio.test.Assertion._
 import com.alvinalexander.utils.PlotUtils.{createAsciiValueInRangeChart, createAsciiSparklineChart}
-import com.alvinalexander.utils.StringUtils.*
 
 /**
  * TODO: These are currently a little out of sync with the PlotUtils code.
